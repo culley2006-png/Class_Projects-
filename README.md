@@ -1,5 +1,5 @@
 # Toad Web Design
 
 <ul>
-    <li><a href="intro_html/index.html" target="_blank">Intro to HTML</a></li>
+    <li><a href="ToadIntroHTML/index.html" target="_blank">Toad Intro HTML</a></li>
 </ul>
