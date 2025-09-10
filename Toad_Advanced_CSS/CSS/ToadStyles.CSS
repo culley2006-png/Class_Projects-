@@ -85,7 +85,8 @@ background-color: #A020F0;
 
 main h2 {
     text-align: center;
-    color: black
+    color: #A020F0;
+    box-shadow: #FFD700;
     }
 
 .multi_col {
@@ -146,7 +147,25 @@ hr {
             text-align: center;
             color: black
          }
-         
+         a {
+    color: #FFD700;
+    a:hover {
+        color: lavender;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: #A020F0;
+    }
+
+
+        
+}
+a[href="https://en.wikipedia.org/wiki/Coffee_Stain_Studios"] 
+{
+  color: #FFD700; 
+   
+}
 
         
 
