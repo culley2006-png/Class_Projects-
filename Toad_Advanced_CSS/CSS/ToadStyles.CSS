@@ -153,13 +153,8 @@ hr {
     all {
         color: lavender;
         text-decoration: none;}
-
-    a:visited {
-        color: #A020F0;}
-
-
-        
-}
+    }
+    
 a[href="https://en.wikipedia.org/wiki/Coffee_Stain_Studios"] 
 {
   color: #FFD700; 
