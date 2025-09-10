@@ -86,7 +86,6 @@ background-color: #A020F0;
 main h2 {
     text-align: center;
     color: #A020F0;
-    box-shadow: #FFD700;
     }
 
 .multi_col {
@@ -135,8 +134,8 @@ hr {
     iframe {
         display: block; 
         margin: 25px auto;
-        border-radius: 10px
-         border 2px solid #A020F0;
+        border-radius: 10px;
+         border: 2px solid #A020F0;
          width: 65%;
          height: 450px;
     }
@@ -151,14 +150,12 @@ hr {
          }
          a {
     color: #FFD700;
-    a:hover {
+    all {
         color: lavender;
-        text-decoration: none;
-    }
+        text-decoration: none;}
 
     a:visited {
-        color: #A020F0;
-    }
+        color: #A020F0;}
 
 
         
@@ -166,7 +163,6 @@ hr {
 a[href="https://en.wikipedia.org/wiki/Coffee_Stain_Studios"] 
 {
   color: #FFD700; 
-   
 }
 
         
