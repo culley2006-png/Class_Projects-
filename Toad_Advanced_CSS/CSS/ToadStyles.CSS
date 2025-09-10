@@ -1,0 +1,146 @@
+body {
+    background-color: #1e1b29;
+}
+
+img { 
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+a { 
+    color:#1A2421;
+    }
+
+    a:hover {
+        color: lavender;
+        text-decoration: none;
+    }
+
+#container {
+    background-color: #2E2B40;
+    width: 85%;
+    margin: 20px auto;
+    border: lavenderblush 5px solid;
+ padding:20px;
+ border-radius: 20px;
+}
+
+header  {
+    text-align: center;
+padding:45px;
+border-bottom: 2px solid black;
+    }
+header h1 {
+    font-size: 55px;
+    color:black;
+   text-shadow: 2px 2px #A020F0;
+}
+
+nav {
+text-align: center;
+border-bottom: 2px solid black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    border-bottom:2px solid black; 
+}
+
+nav li { 
+    display: inline-block;
+    font-size: 20px;    
+}
+
+nav li a {
+    background-color: #FFD700;
+    color:#A020F0;
+    display: block;
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 25px;
+    text-emphasis: none;
+    border-radius: 10px;
+    border: 2px solid #A020F0;
+    margin: 5px;
+}
+/* Style for body text */
+body, p, li, td {
+    color: #e6e6fa;
+    font-size: 20px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+}
+
+nav li a:hover {
+color: #FFD700;
+background-color: #A020F0;
+}
+
+main h2 {
+    text-align: center;
+    color: black
+    }
+
+.multi_col {
+    display: flex;
+}
+
+section, aside {
+  border-radius: 10px;
+    border: 2px solid #A020F0;
+    margin: 15px;
+    padding: 15px;
+    }
+
+    section {
+        width: 75%;
+}
+
+aside {
+    width: 25%;
+}
+
+section img {
+border-radius: 10px;
+    border: 2px solid #A020F0;
+    width: 75%;
+}
+
+footer {
+    padding: 45px;
+    text-align: center;
+}
+
+.img_style {
+    border-radius: 10px;
+    border: 2px solid #A020F0;
+    width: 75%;
+    box-shadow: 2px 2px 5px #A020F0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: 1px solid #A020F0;
+    }
+
+    iframe {
+        display: block; 
+        margin: 25px auto;
+        border-radius: 10px
+         border 2px solid #A020F0;
+    }
+
+    .contact_Coffee_Stain_Info{
+        text-align: center;
+         }
+
+        
+
