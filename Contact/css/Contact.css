@@ -14,6 +14,11 @@ header h1 {
     text-align: center;
 }
 
+h2 {
+    color:#FFD700; /* again, bold gold — matches Helldivers and the sky */
+
+}
+
 nav ul {
     list-style: none;
     background-color: #1B263B; /* dark steel blue nav bar */
@@ -50,8 +55,67 @@ header{
     background-size: cover;
     padding: 100px;
 }
+
+nav li a {
+    display: block;
+    background-color: #0D1B2A;
+    color:#FFD700;
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 25px;
+    text-emphasis: none;
+    border-radius: 10px;
+    border: 2px solid #FFD700;
+    margin: 5px;
+}
+
+.main_content_of_helldivers_2{
+    padding: 45px;
+    margin: 10px;
+}
+
+.col {
+    padding: 45px;
+    margin: 10px; 
+}
+
+.col img {
+border-radius: 15px;
+border: 3px solid #1B263B;
+}
+
+p {
+    font-size: 20px; /* make paragraph text bigger */
+    line-height: 1.6; /* optional: gives more breathing room between lines */
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 1300px; /* to fix the images being big */
+  height: auto; /* keeps proportions correct */
+}
+
+
+
 footer {
     text-align: center;
     padding: 20px;
     color: #778DA9;
 }
+
+/* Base: desktop */
+body {
+  background-color: #0D1B2A;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  body {
+    background-color: #1B263B;
+  }
+}
+
+    
+
